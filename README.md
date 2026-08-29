@@ -1,6 +1,8 @@
 # Cognifyz Technologies - Full Stack Development Internship
 
-This repository contains all the completed tasks for my **Full Stack Web Development Internship** at **Cognifyz Technologies**.
+This repository contains all the completed tasks for my **Full Stack Web Development Internship** at **Cognifyz Technologies**. 
+
+By completing Tasks 1 through 6, I have successfully fulfilled the requirement of completing 3 full levels (Beginner, Intermediate, and Advanced) for the Full Stack Development track.
 
 ## 🚀 Projects & Tasks Overview
 
@@ -24,9 +26,15 @@ This repository contains all the completed tasks for my **Full Stack Web Develop
 - Built a single-page application (SPA) with full client-server API communication.
 - Implemented `GET`, `POST`, and `DELETE` endpoints in Express using the Fetch API without page reloads.
 
+### 📁 Task 6: Database Integration & User Authentication
+- Integrated a zero-configuration **SQLite** database to store user credentials persistently.
+- Secured user passwords using **bcrypt.js** hashing.
+- Implemented secure API endpoints protected by **JSON Web Tokens (JWT)**.
+
 ---
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap 5, EJS
 - **Backend:** Node.js, Express.js
+- **Database & Security:** SQLite3, bcryptjs, JSON Web Tokens (JWT)
 - **Version Control:** Git, GitHub

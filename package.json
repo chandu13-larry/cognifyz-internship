@@ -1,16 +1,28 @@
 {
   "name": "cognifyz-internship-20-26",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository contains all the completed tasks for my **Full Stack Web Development Internship** at **Cognifyz Technologies**.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "ejs": "^6.0.1",
-    "express": "^4.22.2"
-  }
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "sqlite3": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandu13-larry/cognifyz-internship.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chandu13-larry/cognifyz-internship/issues"
+  },
+  "homepage": "https://github.com/chandu13-larry/cognifyz-internship#readme"
 }
