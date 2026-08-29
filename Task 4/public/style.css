@@ -1,0 +1,37 @@
+
+body { background-color: #f4f6f9; }
+
+.hero-section {
+    background: linear-gradient(135deg, #111827, #374151);
+    color: white;
+    padding: 60px 0;
+}
+
+.registration-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* Dynamic ID Card Preview Styles */
+.id-preview-card {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-top: 20px;
+}
+
+.id-preview-card h4 { margin-top: 15px; font-weight: bold; }
+.id-preview-card p { opacity: 0.8; font-size: 1.1rem; }
+.preview-avatar { font-size: 4rem; }
+
+.footer {
+    background: #111827;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}

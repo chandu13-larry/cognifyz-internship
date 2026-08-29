@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Registration</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        form { text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Task 2: Student Registration</h1>
+    
+    <form action="/register" method="POST">
+        <div>
+            <label>Full Name:</label>
+            <input type="text" name="name" required>
+        </div><br>
+        <div>
+            <label>Email Address:</label>
+            <input type="email" name="email" required>
+        </div><br>
+        <div>
+            <label>Phone Number:</label>
+            <input type="text" name="phone" required>
+        </div><br>
+        <div>
+            <label>Select Course:</label>
+            <select name="course">
+                <option value="Full Stack">Full Stack Development</option>
+                <option value="Python">Python</option>
+                <option value="Data Science">Data Science</option>
+            </select>
+        </div><br>
+        <button type="submit">Register Student</button>
+    </form>
+</body>
+</html>

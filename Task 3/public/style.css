@@ -1,0 +1,49 @@
+/* Custom CSS and Animations */
+body {
+    background-color: #f4f6f9;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #111827, #374151);
+    color: white;
+    padding: 80px 0;
+}
+
+/* Graduation Cap Animation */
+.floating-icon {
+    font-size: 4rem;
+    animation: float 3s ease-in-out infinite;
+    display: inline-block;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Course Card Hover Effect */
+.course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.registration-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.footer {
+    background: #111827;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
