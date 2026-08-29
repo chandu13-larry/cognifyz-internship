@@ -59,5 +59,4 @@ app.get('/api/dashboard', authenticate, (req, res) => {
         res.json({ message: "Welcome to the secure vault!", users: rows });
     });
 });
-
-app.listen(3000, () => console.log('Task 6 Server running on http://localhost:3000'));
+app.listen(3001, () => console.log('Task 6 Server running on http://localhost:3001'));
