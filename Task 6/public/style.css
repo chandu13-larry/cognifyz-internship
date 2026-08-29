@@ -1,0 +1,19 @@
+/* Task 5 Custom Styles */
+body { 
+    background-color: #f4f6f9; 
+    font-family: sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f5f9;
+    transition: background-color 0.2s ease;
+}
+
+.badge {
+    font-size: 0.85em;
+    padding: 0.5em 0.75em;
+}
